@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('.gitignore/.env').config();
 
 const tmdbKey = process.env.TMDB_KEY;
 const tmdbBaseUrl = 'https://api.themoviedb.org/3';
